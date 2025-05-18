@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <section
       aria-labelledby="skills-heading"
-      className="w-[18rem] flex flex-col gap-4 items-start lg:w-[28rem] rounded-lg bg-cardbg px-5 py-4 "
+      className="w-full flex flex-col gap-4 items-start  rounded-lg bg-cardbg px-5 py-4 "
     >
       <h3 id="skills-heading" className="text-xl font-medium  ">
         Skills

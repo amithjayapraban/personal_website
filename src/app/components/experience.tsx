@@ -12,7 +12,7 @@ function Experience() {
   ];
   return (
     <>
-      <section className="w-[18rem] flex flex-col gap-4 items-start lg:w-[28rem] rounded-lg bg-cardbg px-5 py-4 ">
+      <section className="w-full flex flex-col gap-4 items-start  rounded-lg bg-cardbg px-5 py-4 ">
         <h3 className="text-xl font-medium  ">Experience</h3>
         <ul className="flex flex-wrap gap-4 w-full">
           {experiences.map((experience) => (

@@ -6,7 +6,7 @@ function Projects() {
       rel="noopener"
       target="_blank"
       href="https://github.com/amithjayapraban"
-      className={`w-[18rem] lg:w-[28rem]     group rounded-lg border border-transparent bg-cardbg px-5 py-4 transition-colors `}
+      className={`w-full   group rounded-lg border border-transparent bg-cardbg px-5 py-4 transition-colors `}
     >
       <h2 className="mb-3  flex items-center gap-1 text-xl font-medium  ">
         Projects

@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head />
       <Socials />
-      <section className="flex  flex-col gap-4  items-center  ">
+      <section className="flex w-[19rem] sm:w-[28rem]   flex-col gap-4  items-center  ">
         <Experience />
         <Skills />
         <Projects />
