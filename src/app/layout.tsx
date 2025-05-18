@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Amith Jayapraban" }],
   openGraph: {
-    title: "Amith Jayapraban - Software Engineer",
-    description: "Amith Jayapraban, Software Engineer from Kerala, India.",
+    title: "Amith Jayapraban",
+    description: "Software Engineer from Kerala, India.",
     url: "https://amith.vercel.app/",
     siteName: "Amith Jayapraban",
     images: [
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Amith Jayapraban – Software Engineer",
-    description: "Amith Jayapraban, Software Engineer from Kerala, India.",
+    title: "Amith Jayapraban",
+    description: "Software Engineer from Kerala, India.",
     images: ["https://amith.vercel.app/og-image.jpg"],
   },
   metadataBase: new URL("https://amith.vercel.app/"),
