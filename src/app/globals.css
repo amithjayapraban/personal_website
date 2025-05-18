@@ -12,9 +12,9 @@
 
 /* @media (prefers-color-scheme: dark) {
   :root {
-    --background: rgb(29, 29, 25);
+    --background: rgb(18, 18,18) ;
     --textcolor: rgb(255, 255, 255);
-    --cardbg: rgb(39, 39, 42);
+    --cardbg: rgb(24,24, 24);
     --bordercolor: rgb(64, 64, 64);
   }
 } */

@@ -19,11 +19,11 @@ function Card({
 }: CardProps) {
   return (
     <Link
-      target={target?target:"_self"}
+      target={target ? target : "_self"}
       href={link}
-      className={`w-[18rem] lg:w-[28rem]  hover:border-bordercolor hover:bg-cardbg ${textalign}  group rounded-lg border border-transparent bg-cardbg px-5 py-4 transition-colors `}
+      className={`w-[18rem] lg:w-[28rem]   ${textalign}  group rounded-lg border border-transparent bg-cardbg px-5 py-4 transition-colors `}
     >
-      <h2 className="mb-3 flex items-center gap-1 text-2xl font-semibold">
+      <h2 className="mb-3  flex items-center gap-1 text-xl font-medium  ">
         {heading}
         <span className="inline-block  transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
           <svg
@@ -46,7 +46,7 @@ function Card({
       <p className="m-0   break-words text-sm font-medium opacity-75 ">
         {text}
       </p>
-      <div className={`group flex items-center  ${textalign}  gap-1`}>
+      {/* <div className={`group flex items-center  ${textalign}  gap-1`}>
         {tags &&
           tags.map((t: any) => {
             return (
@@ -55,7 +55,7 @@ function Card({
               </p>
             );
           })}
-      </div>
+      </div> */}
     </Link>
   );
 }

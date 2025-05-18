@@ -1,17 +1,19 @@
-import Card from "./ui/card";
-import Foot from "./components/foot";
 import { Head } from "./components/head";
 import React from "react";
+import Skills from "./components/skills";
+import Socials from "./components/socials";
+import Experience from "./components/experience";
+import Projects from "./components/projects";
 
 export default function Home() {
   return (
     <>
       <Head />
-      <Foot />
+      <Socials />
       <section className="flex  flex-col gap-4  items-center  ">
-        <Card link="/about" heading="About Me" text="More about me" />
-        <Card link="/projects" heading="Projects" text="Stuff I've built" />
-        {/* <Card link="/photos" heading="Photos" text="Some photos I took" /> */}
+        <Experience />
+        <Skills />
+        <Projects />
       </section>
     </>
   );
