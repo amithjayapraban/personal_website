@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 function Experience() {
   let experiences = [
@@ -21,8 +22,10 @@ function Experience() {
               aria-label={`${experience.title} at ${experience.org} from ${experience.from} to ${experience.to}`}
             >
               <div className="flex gap-4 items-center">
-                <img
-                  className="rounded-full w-10"
+                <Image
+                  width={40}
+                  height={40}
+                  className="rounded-full"
                   src={experience.logo}
                   alt={experience.org}
                 />

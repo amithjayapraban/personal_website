@@ -29,7 +29,7 @@ function Projects() {
         </span>
       </h2>
       <p className="m-0   break-words text-sm text-neutral-600">
-        Stuff I've built
+        Stuff I&apos;ve built
       </p>
     </a>
   );
