@@ -41,8 +41,10 @@ export const metadata: Metadata = {
     images: ["https://amith.vercel.app/og-image.jpg"],
   },
   metadataBase: new URL("https://amith.vercel.app/"),
+  verification: {
+    google: "5gn88G8fZ4NoID7NpsNc8a3uxACMWPqWHD6cNNkjQpE",
+  },
 };
-
 
 export default function RootLayout({
   children,
@@ -52,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${inter.className} min-h-[100dvh] bg-background text-textcolor  overflow-scroll flex flex-col justify-start items-center gap-8  p-8`}
+        className={` ${inter.className} h-full bg-background text-textcolor  overflow-scroll flex flex-col justify-start items-center gap-8  p-8`}
       >
         {children}
       </body>

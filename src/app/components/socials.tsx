@@ -2,7 +2,7 @@ import React from "react";
 
 function Socials() {
   return (
-    <section className="justify-center  self-end  w-full   items-center -mt-8 cursor-pointer gap-8 flex ">
+    <section className="justify-center items-center -mt-8 cursor-pointer gap-8 flex ">
       <a
         href="mailto:amithjayapraban@gmail.com"
         aria-label="Send email to amithjayapraban@gmail.com"

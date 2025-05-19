@@ -8,7 +8,7 @@ function Projects() {
       href="https://github.com/amithjayapraban"
       className={`w-full   group rounded-lg border border-transparent bg-cardbg px-5 py-4 transition-colors `}
     >
-      <h2 className="mb-3  flex items-center gap-1 text-xl font-medium  ">
+      <h3 className="mb-3  flex items-center gap-1 text-xl font-medium  ">
         Projects
         <span className="inline-block  transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
           <svg
@@ -27,7 +27,7 @@ function Projects() {
             <path d="m12 5 7 7-7 7" />
           </svg>
         </span>
-      </h2>
+      </h3>
       <p className="m-0   break-words text-sm text-neutral-600">
         Stuff I&apos;ve built
       </p>
