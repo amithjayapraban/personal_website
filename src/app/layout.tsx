@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
+import type { Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
+
+
+export const viewport: Viewport = {
+  themeColor: "white"
+};
 
 export const metadata: Metadata = {
   title: "Amith Jayapraban",
@@ -54,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${inter.className} h-full bg-background text-textcolor  overflow-scroll flex flex-col justify-start items-center gap-8  p-8`}
+        className={` ${inter.className} h-full bg-background text-textcolor  overflow-y-auto  overflow-x-hidden  flex flex-col justify-start items-center gap-8`}
       >
         {children}
       </body>
