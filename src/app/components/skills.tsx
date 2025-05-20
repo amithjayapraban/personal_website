@@ -7,8 +7,8 @@ const Skills = () => {
     "Python",
     "React.js",
     "Next.js",
-    "Tailwind",
     "CSS",
+    "Tailwind",
     "SQL",
     "GraphQL",
   ];
