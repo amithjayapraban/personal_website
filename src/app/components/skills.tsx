@@ -11,6 +11,7 @@ const Skills = () => {
     "Tailwind",
     "SQL",
     "GraphQL",
+    "AWS"
   ];
   return (
     <section
